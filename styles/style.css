@@ -15,16 +15,33 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
 }
+
 h1 {
   font-size: 96px;
   line-height: 1.5;
 }
+.about-hero h1 {
+  font-size: 64px;
+  font-family: var(--default-font-family);
+  line-height: 85px;
+}
 h2 {
   font-size: 64px;
+  font-weight: bold;
+}
+.about-hero {
+  padding: 160px 20px;
+}
+.about-hero-content {
+  margin: 30px;
+}
+.about-hero h2 {
+  font-size: 18px;
 }
 p {
   font-size: 16px;
   line-height: 30px;
+  font-family: var(--heading-font-family);
 }
 .hero {
   background-color: var(--secondary-color);
@@ -61,6 +78,9 @@ p {
 .project-description {
   padding: 120px 30px;
 }
+.about-img {
+  border-radius: 20px;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
@@ -80,5 +100,9 @@ p {
   }
   h2 {
     text-align: center;
+  }
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
