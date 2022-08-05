@@ -94,6 +94,32 @@ p {
 .about-img {
   border-radius: 20px;
 }
+nav {
+  padding: 20px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 45px;
+  margin: 0 10px;
+}
+
+.logo {
+  max-height: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
@@ -121,5 +147,8 @@ p {
   .content-conteiner {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 12px;
   }
 }
