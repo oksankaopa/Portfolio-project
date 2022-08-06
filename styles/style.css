@@ -29,6 +29,9 @@ h2 {
   font-size: 64px;
   font-weight: bold;
 }
+h4 {
+  font-size: 48px;
+}
 .content-conteiner {
   padding: 160px 20px;
 }
@@ -41,12 +44,12 @@ h2 {
   font-size: 24px;
   line-height: 1.5;
   margin: 20px 0 0;
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 .content h2 {
   font-size: 18px;
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
 }
 .content p {
   font-size: 14px;
@@ -54,7 +57,7 @@ h2 {
 p {
   font-size: 16px;
   line-height: 30px;
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
 }
 .hero {
   background-color: var(--secondary-color);
@@ -120,6 +123,34 @@ nav a:hover,
 nav li.active a {
   color: var(--primary-color);
 }
+
+i {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  margin: 20px;
+}
+footer .email-link {
+  text-align: center;
+  color: #272142;
+  text-decoration: none;
+  font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+.contact-box {
+  background-color: var(--secondary-color);
+  padding: 49px 119px 30px 119px;
+  border-radius: 20px;
+}
+.contact-box p {
+  font-size: 18px;
+  line-height: 27px;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
@@ -148,7 +179,14 @@ nav li.active a {
     text-align: center;
     padding: 0;
   }
-  nav a {
-    font-size: 12px;
+  nav li {
+    font-size: 10px;
+    margin: 5px;
+  }
+  .contact-box {
+    padding: 10px;
+  }
+  h4 {
+    font-size: 24px;
   }
 }
